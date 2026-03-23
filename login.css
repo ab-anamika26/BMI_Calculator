@@ -1,0 +1,138 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f5fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.logo {
+  text-align: center;
+  color: #5b3e88;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form label {
+  font-weight: 500;
+  color: #555;
+  margin-bottom: -8px;
+  margin-left: 4px;
+}
+
+.login-form select,
+.login-form input {
+  padding: 12px 40px 12px 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  position: relative;
+  transition: border 0.3s;
+}
+
+.login-form select:focus,
+.login-form input:focus {
+  border-color: #9374d1;
+}
+
+.login-form input::placeholder {
+  color: #aaa;
+}
+
+.login-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #7a5cc2;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #6a4bb4;
+}
+
+.help-link,
+.signup-text {
+  font-size: 14px;
+  text-align: center;
+  color: #666;
+}
+
+.help-link a,
+.signup-text a {
+  color: #7a5cc2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.separator {
+  text-align: center;
+  margin: 15px 0;
+  color: #aaa;
+  font-size: 14px;
+  position: relative;
+}
+
+.separator span {
+  background: white;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.separator::before {
+  content: "";
+  height: 1px;
+  background: #ccc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+
+/* Input Icons (optional SVG backgrounds) */
+.login-form input[type="email"] {
+  background-image: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/svgs/solid/envelope.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+}
+
+.login-form input[type="password"] {
+  background-image: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/svgs/solid/lock.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+}
+
+.login-form select {
+  background-image: url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/svgs/solid/user-tag.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+}

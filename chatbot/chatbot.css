@@ -1,0 +1,108 @@
+/* chatbot.css */
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#chatbot-toggle {
+  padding: 10px 15px;
+  background: #00a1a3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chatbot-window {
+  display: none;
+  width: 320px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  font-family: sans-serif;
+  transition: transform 0.3s ease-in-out;
+}
+
+.chatbot-header {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #004d4d;
+}
+
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+  max-height: 120px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+
+
+.suggestion {
+  background: #e0f7fa;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+
+.suggestion:hover {
+  background: #b2ebf2;
+}
+
+.input-area {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 6px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+}
+
+.input-area input:focus {
+  outline: none;
+  border-color: #00a1a3;
+  box-shadow: 0 0 5px #00a1a3;
+}
+
+.input-area button {
+  padding: 6px 12px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background: #00a1a3;
+  color: white;
+  cursor: pointer;
+}
+
+.response-box {
+  background: #f1f1f1;
+  padding: 10px;
+  border-left: 4px solid #00a1a3;
+  border-radius: 6px;
+  color: #333;
+  white-space: pre-line;
+  font-size: 0.95rem;
+}
+.suggestions::-webkit-scrollbar {
+  width: 6px;
+}
+.suggestions::-webkit-scrollbar-thumb {
+  background: #00a1a3;
+  border-radius: 4px;
+}
+

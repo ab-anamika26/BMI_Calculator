@@ -1,0 +1,120 @@
+Array
+(
+    [gender] => male
+    [weight] => 70
+    [height] => 180
+    [bmi] => 21.60
+    [category] => normalweight
+)
+Array
+(
+    [gender] => male
+    [weight] => 90
+    [height] => 165
+    [bmi] => 33.06
+    [category] => obese
+)
+Array
+(
+    [gender] => male
+    [weight] => 40
+    [height] => 157
+    [bmi] => 16.23
+    [category] => underweight
+)
+Array
+(
+    [gender] => female
+    [weight] => 56
+    [height] => 160
+    [bmi] => 21.87
+    [category] => normalweight
+)
+Array
+(
+    [gender] => female
+    [weight] => 45
+    [height] => 150
+    [bmi] => 20.00
+    [category] => normalweight
+)
+Array
+(
+    [gender] => male
+    [weight] => 60
+    [height] => 160
+    [bmi] => 23.44
+    [category] => normalweight
+)
+Array
+(
+    [gender] => male
+    [weight] => 62
+    [height] => 160
+    [bmi] => 24.22
+    [category] => normalweight
+)
+Array
+(
+    [gender] => male
+    [weight] => 62
+    [height] => 160
+    [bmi] => 24.22
+    [category] => normalweight
+)
+Array
+(
+    [gender] => female
+    [weight] => 50
+    [height] => 160
+    [bmi] => 19.53
+    [category] => normalweight
+)
+Array
+(
+    [gender] => female
+    [weight] => 40
+    [height] => 160
+    [bmi] => 15.62
+    [category] => underweight
+)
+Array
+(
+    [gender] => male
+    [weight] => 85
+    [height] => 171
+    [bmi] => 29.07
+    [category] => overweight
+)
+Array
+(
+    [gender] => female
+    [weight] => 40
+    [height] => 158
+    [bmi] => 16.02
+    [category] => underweight
+)
+Array
+(
+    [gender] => female
+    [weight] => 47
+    [height] => 162
+    [bmi] => 17.91
+    [category] => underweight
+)
+Array
+(
+    [gender] => female
+    [weight] => 55
+    [height] => 155
+    [bmi] => 22.89
+    [category] => normalweight
+)
+Array
+(
+    [gender] => female
+    [weight] => 38
+    [height] => 157
+    [bmi] => 15.42
+    [category] => underweight
+)
